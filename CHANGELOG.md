@@ -56,6 +56,10 @@ VS Code v0.00.0
 
 - chore: cross-compile docker images with buildx #3166 @oxy
 
+### Development
+
+- chore: update node to v14 #3458 @oxy
+
 ## 3.10.2
 
 VS Code v1.56.1
