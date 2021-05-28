@@ -271,7 +271,7 @@ jobs:
       - name: Replace node with arm64 equivalent
         run: |
           wget https://nodejs.org/dist/v14.17.0/node-v14.17.0-linux-arm64.tar.xz
-          tar -xzf node-v14.17.0-linux-arm64.tar.xz node-v14.17.0-linux-arm64/bin/node --strip-components=2
+          tar -xf node-v14.17.0-linux-arm64.tar.xz node-v14.17.0-linux-arm64/bin/node --strip-components=2
           mv ./node ./release-standalone/lib/node
 
       - name: Build packages with nfpm
